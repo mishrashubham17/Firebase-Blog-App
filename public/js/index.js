@@ -143,7 +143,7 @@ function googleSignIn(){
   firebase.auth().signInWithPopup(base_provider).then(function(result){
     console.log(result);
     alert("Success..Signed in with google");
-    window.location = 'Main.html';
+    window.location = 'index.html';
   }).catch(function(err){
     console.log(err);
     alert("Failed");
